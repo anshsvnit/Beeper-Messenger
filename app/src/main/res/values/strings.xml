@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Beeper Messenger</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_dob">Date of birth (01-01-1991)</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="action_register">Next</string>
+    <string name="action_createwall">Create Wall</string>
+    <string name="prompt_forgot_password">Registered Email</string>
+
+
+    <string name="action_register_withfb">Register with facebook</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="REQUIRED">Required Information</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+
+    <string name="app_id">501475010038834</string>
+    <string name="title_activity_terms_and_condition">TermsAndCondition</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicy</string>
+
+</resources>

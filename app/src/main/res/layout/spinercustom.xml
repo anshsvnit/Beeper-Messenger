@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   android:background="#fff"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/spinnerheader"
+         >
+
+        <TextView android:textSize="18dp"
+          android:textStyle="bold" 
+          android:textColor="#ffffffff" 
+          android:gravity="center"
+          android:layout_gravity="center_vertical|center_horizontal" 
+          android:id="@+id/txtdialogtitle" 
+          android:paddingLeft="10.0dip" 
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content" 
+          android:text="Set City/State" 
+        />
+        
+    </LinearLayout>
+    
+    
+<ListView
+        android:id="@+id/spinneritemlist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     android:background="@android:color/white"
+     android:choiceMode="singleChoice"
+        >
+        
+    </ListView>
+</LinearLayout>

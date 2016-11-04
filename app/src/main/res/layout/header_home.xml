@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                // this is your first layout to put the big image
+                // use src or backgroud image as per requirement
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/user_profile_image">
+
+                </LinearLayout>
+
+                // this is your bottom layout
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_drname_profile"
+                        style="@style/text_view_drlist"
+                        android:gravity="center_horizontal"
+                        android:text="Anean Aliquam"
+
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView_dr_spec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Lorem Ispum is text printing and type setting industry"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btn_register_create_wall"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/rounded_button"
+                        android:padding="5dp"
+                        android:text="@string/action_createwall"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            // This is the imageview which overlay the first LinearLayout
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="10dp"
+               android:layout_marginTop="120dp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/user_profle" />
+        </FrameLayout>
+
+
+</LinearLayout>
